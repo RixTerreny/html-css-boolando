@@ -58,6 +58,17 @@ main img{
     margin-top: 2.5rem;
 }
 
+.image-hovered{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.model-img:hover .image-hovered{
+    display: unset ;
+}
+
 .heart{
     background-color: white;
     position: absolute;
