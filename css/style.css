@@ -38,12 +38,18 @@ header a{
     padding-bottom: 0.1rem;
 }
 
+/* main's start */
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 main img{
     width: 100%;
 }
 
 .model-img{
-    width: 19rem;
+    width: 18.5rem;
     position: relative;
     margin-top: 2.5rem;
 }
@@ -70,15 +76,17 @@ main img{
 }
 
 .model-img span{
-    background-color: #ff0000;
-    padding: 0.15rem 0.3rem;
+    padding: 0.2rem 0.4rem;
     color: white;
-    font-size: 0.9rem;
-
+    font-size: 0.8rem;
 }
 
-.model-img span:last-child{
-    background-color: #008000;
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
 }
 
 h2{
@@ -95,3 +103,6 @@ h2{
     color: red;
     font-size: 0.8rem;
 }
+
+
+
