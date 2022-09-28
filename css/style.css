@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ff6900;
+}
+
+.container{
+    margin: auto;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.header-padding{
+    padding: 0.5rem;
+}
+
+.header-padding img{
+    padding: 0 0.5rem;
+}
+
+.logo{
+    width: 8.5rem;
+    padding-bottom: 0.1rem;
+}
